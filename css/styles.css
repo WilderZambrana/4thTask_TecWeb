@@ -42,11 +42,12 @@ ion-icon {
     width: 100%;
     height: 600px;
     background: #007991;
-    background: -webkit-linear-gradient(to left, hsla(0, 0%, 5%, 0.603), hsla(180, 1%, 55%, 0.603)), url('../img/Portada.jpg');
-    background: linear-gradient(to left, hsla(0, 0%, 3%, 0.603), hsla(180, 0%, 46%, 0.603)), url('../img/Portada.jpg');
-    background-size: cover;
+    background: -webkit-linear-gradient(to left, hsla(0, 0%, 3%, 0.63), hsla(0, 0%, 3%, 0.63)), url('../img/Portada3.jpg');
+    background: linear-gradient(to left, hsla(0, 0%, 3%, 0.63), hsla(0, 0%, 3%, 0.63)), url('../img/Portada3.jpg');
+    background-size:cover;
 }
 #Portada_id .texto-portada{
+    font-family: 'Titillium Web', sans-serif;
     display: flex;
     margin-left: 50px;
     height: 450px;
