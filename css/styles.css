@@ -1,0 +1,56 @@
+* {
+    /*font-family: 'Titillium Web', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+* p{
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo{
+    color: #057871; 
+    font-size: 30px; 
+    font-weight: 700;
+}
+/*Navbar*/
+ion-icon {
+    color: #000;
+    font-size: 35px;
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.nav-link{
+    color: #000; 
+    font-size: 13px; 
+    font-weight: 700;
+}
+.nav-link:hover {color: #000;}
+.navbar .dropdown-item{
+    color: #000;
+    font-size: 12px; 
+    font-weight: 700;
+}
+
+#navbarSupportedContent li{
+    border-left: 1px solid #ccc;
+}
+/*Portada*/
+#Portada_id{
+    width: 100%;
+    height: 600px;
+    background: #007991;
+    background: -webkit-linear-gradient(to left, hsla(0, 0%, 5%, 0.603), hsla(180, 1%, 55%, 0.603)), url('../img/Portada.jpg');
+    background: linear-gradient(to left, hsla(0, 0%, 3%, 0.603), hsla(180, 0%, 46%, 0.603)), url('../img/Portada.jpg');
+    background-size: cover;
+}
+#Portada_id .texto-portada{
+    display: flex;
+    margin-left: 50px;
+    height: 450px;
+    width: 50%;
+    align-items: center;
+    padding-top: 250px;
+}
