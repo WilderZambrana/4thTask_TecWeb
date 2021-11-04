@@ -56,14 +56,3 @@ ion-icon {
     text-align: center;
     padding-top: 250px;
 }
-/* Por debajo de 700px */
-@media screen and (max-width: 700px){
- 
-    #Portada_id .texto-portada{
-        width: 100%;
-        font-size:12px;
-        align-content: center;
-        align-items: center;
-        text-align: center;
-    }
-}
