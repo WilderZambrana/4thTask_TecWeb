@@ -47,7 +47,6 @@ ion-icon {
     background-size:cover;
 }
 #Portada_id .texto-portada{
-    font-family: 'Titillium Web', sans-serif;
     display: flex;
     margin-left: 50px;
     height: 450px;
@@ -55,4 +54,7 @@ ion-icon {
     align-items: center;
     text-align: center;
     padding-top: 250px;
+}
+#Portada_id .texto-portada h1 strong{
+    font-family: 'Montserrat', sans-serif;
 }
