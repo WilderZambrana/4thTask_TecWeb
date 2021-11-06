@@ -56,7 +56,8 @@ nav .nav-menu .nav-item .nav-link:hover{
     padding-bottom: 0px;
 }
 nav .nav-menu .dropdown-menu{
-    position: absolute;
+    position: absolute;    
+    list-style: none;
     top: 38px;
     display: none;    
     border: 1px solid #0000003b;
@@ -96,4 +97,31 @@ nav .nav-menu .dropdown-menu .dropdown-item:hover{
 #Portada_id .texto-portada h1 strong{
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
+}
+/*Artists*/
+
+/*Mixes*/
+
+/*Curiosity*/
+
+/*Categories*/
+#Categories{
+    background: #f2f2f2;
+}
+.category-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 18%;
+    height: 250px;
+    margin-bottom: 10ox;
+}
+.card .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
 }
