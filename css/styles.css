@@ -5,20 +5,78 @@
     margin: 0;
     padding: 0;
   }
-* p{
-    font-family: 'Montserrat', sans-serif;
+
+/*Navbar*/
+.navbar{
+    margin:0 auto;
+    width: 100%;
+    position: fixed;    
+    border-bottom: 1px solid #ccc;
 }
-.titulo{
-    color: #057871; 
-    font-size: 30px; 
+nav{
+    height: 40px;
+    background: #fff;
+}
+.navbar-brand img{
+    padding: 0 0 0 80px;
+    width: 150px;
+    height: 40px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    background: #fff;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+}
+nav ul li ion-icon{
+    font-size: 20px;    
+    position: relative;
+    padding: 0 2px;
+    top: 5px;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 13px; 
     font-weight: 700;
 }
-/*Navbar*/
-ion-icon {
-    color: #000;
-    font-size: 35px;
+nav ul li a:hover{
+    line-height: 35px;
+    border-bottom: 3px solid #ec7607;
+    padding-bottom: 0px;
 }
-.navbar{
+nav ul ul{
+    position: absolute;
+    top: 38px;
+    display: none;    
+    border: 1px solid #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+nav ul li:hover > ul{
+    display: block;
+    background: #fff;
+}
+nav ul ul li{
+    width:90px;
+    border-left: none;
+}
+nav ul ul li a:hover{
+    border-bottom: none;
+    background-color: rgba(164, 240, 245, 0.2);
+}
+/*.navbar{
     background-color: #fff;
     border-bottom: 1px solid #ccc;
 }
@@ -36,7 +94,7 @@ ion-icon {
 
 #navbarSupportedContent li{
     border-left: 1px solid #ccc;
-}
+}*/
 /*Portada*/
 #Portada_id{
     width: 100%;
@@ -48,13 +106,15 @@ ion-icon {
 }
 #Portada_id .texto-portada{
     display: flex;
-    margin-left: 50px;
+    margin-left: 90px;
     height: 450px;
-    width: 50%;
+    width: 45%;
     align-items: center;
     text-align: center;
-    padding-top: 250px;
+    color: #fff;
+    padding-top: 120px;
 }
 #Portada_id .texto-portada h1 strong{
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
 }
