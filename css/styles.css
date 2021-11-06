@@ -22,26 +22,26 @@ nav{
     width: 150px;
     height: 40px;
 }
-nav ul{
+nav .nav-menu{
     padding: 0;
     margin: 0;
     float: right;
     margin-right: 30px;
 }
-nav ul li{
+nav .nav-menu .nav-item{
     background: #fff;
     position: relative;
     list-style: none;
     display: inline-block;
     border-left: 1px solid #ccc;
 }
-nav ul li ion-icon{
+nav .nav-menu .nav-item ion-icon{
     font-size: 20px;    
     position: relative;
     padding: 0 2px;
     top: 5px;
 }
-nav ul li a{
+nav .nav-menu li a{
     display: block;
     padding: 0 15px;
     color: #000;
@@ -50,51 +50,30 @@ nav ul li a{
     font-size: 13px; 
     font-weight: 700;
 }
-nav ul li a:hover{
+nav .nav-menu .nav-item .nav-link:hover{
     line-height: 35px;
     border-bottom: 3px solid #ec7607;
     padding-bottom: 0px;
 }
-nav ul ul{
+nav .nav-menu .dropdown-menu{
     position: absolute;
     top: 38px;
     display: none;    
-    border: 1px solid #000000;
+    border: 1px solid #0000003b;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 5px;
 }
-nav ul li:hover > ul{
+nav .nav-menu .nav-item:hover > .dropdown-menu{
     display: block;
     background: #fff;
 }
-nav ul ul li{
+nav .nav-menu .dropdown-menu{
     width:90px;
-    border-left: none;
 }
-nav ul ul li a:hover{
-    border-bottom: none;
+nav .nav-menu .dropdown-menu .dropdown-item:hover{
     background-color: rgba(164, 240, 245, 0.2);
 }
-/*.navbar{
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-}
-.nav-link{
-    color: #000; 
-    font-size: 13px; 
-    font-weight: 700;
-}
-.nav-link:hover {color: #000;}
-.navbar .dropdown-item{
-    color: #000;
-    font-size: 12px; 
-    font-weight: 700;
-}
-
-#navbarSupportedContent li{
-    border-left: 1px solid #ccc;
-}*/
 /*Portada*/
 #Portada_id{
     width: 100%;
