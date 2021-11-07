@@ -171,19 +171,19 @@ a{
     display: block;
 }
 /*CURIOSITY*/
-.curiosity-cards .card{
+.newMusic-cards .card{
     margin-bottom: 20px;
     width: 195px;
     padding: 4px;
 }
-.curiosity-cards .card .card-img{
+.newMusic-cards .card .card-img{
     border-radius: 3px;
 }
-.curiosity-cards .card a:hover h4{
+.newMusic-cards .card a:hover h4{
     color: #ec7607;
 }
 /*MIXES*/
-.mixes-cards .card{
+.playlists-cards .card{
     margin-bottom: 20px;
     width: 195px;
     overflow: hidden;
@@ -204,7 +204,7 @@ a{
     justify-content: center;
     align-items: center;
 }
-.mixes-cards .card a:hover h4{
+.playlists-cards .card a:hover h4{
     color: #ec7607;
 }
 .card a:hover .hover-img{
