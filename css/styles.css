@@ -98,7 +98,27 @@ nav .nav-menu .dropdown-menu .dropdown-item:hover{
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
 }
+/**/
+section .conteiner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 /*Artists*/
+.slider-artists{
+    margin-top: 10px;
+    display: flex;
+    overflow-y: auto;
+}
+.slider-artists img{
+    width: 100%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    display: block;
+}
 
 /*Mixes*/
 
@@ -112,16 +132,31 @@ nav .nav-menu .dropdown-menu .dropdown-item:hover{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 16px;
 }
 .card{
-    width: 18%;
-    height: 250px;
-    margin-bottom: 10ox;
+    margin-right: 10px;
+    position: relative;
 }
 .card .card-img{
+    width: 200px;
+    object-fit: cover;    
+    height: 200px;
+}
+.card-body{
+    position: absolute;
+    top: 0;
+    background: hsla(0, 0%, 0%, 0.336);
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-
+    height: 200px;
+    text-align: center;
+    color: #fff;
+}
+.card-body h4{
+    padding-top: 85px;
+    font-size: 25px;
+}
+.card-body:hover{
+    background: hsla(0, 0%, 0%, 0.856);
+    color:#ec7607;
 }
