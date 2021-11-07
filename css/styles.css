@@ -1,7 +1,6 @@
 * {
     /*font-family: 'Titillium Web', sans-serif;*/
     /*font-family: 'Montserrat', sans-serif;*/
-    /*font-family: 'Krona One', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -138,6 +137,9 @@ section .title p ion-icon{
     padding: 0 2px;
     top: 5px;
 }
+section .title a:hover p{
+    color: #ec7607;
+}
 a{
     color: #000;
     text-decoration: none;
@@ -169,12 +171,6 @@ a{
     display: block;
 }
 /*CURIOSITY*/
-/*.curiosity-cards{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-bottom: 0;
-}*/
 .curiosity-cards .card{
     margin-bottom: 20px;
     width: 195px;
@@ -190,7 +186,6 @@ a{
 .mixes-cards .card{
     margin-bottom: 20px;
     width: 195px;
-    padding: 4px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -201,7 +196,6 @@ a{
     height: 170px;
     top:0;
     transform: scale(0);
-    padding-top: 4px;
     background: hsla(0, 0%, 0%, 0.842);
     color: #fff;
     font-size: 50px;
@@ -258,7 +252,28 @@ a{
     }
   }
 /*FOOTER*/
-footer .conteiner{
+footer{
     background: #000;
     color: #fff;
+    text-align: center;
+}
+footer a img{
+    width: 150px;
+    height: 40px;
+}
+footer .footer-info li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+footer .footer-info li a{
+    display: block;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 13px; 
+    font-weight: 700;
 }
