@@ -1,11 +1,31 @@
 * {
     /*font-family: 'Titillium Web', sans-serif;*/
     /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Krona One', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
   }
-
+h2{
+    font-size: 30px;
+}
+h3{
+    padding-top: 85px;
+    font-size: 25px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;   
+}
+h5{
+    font-size: 14px;
+    padding-top: 15px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
 /*Navbar*/
 .navbar{
     margin:0 auto;
@@ -108,17 +128,15 @@ section .conteiner{
 }
 section .title{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 section .title p ion-icon{
     font-size: 20px;    
     position: relative;
     padding: 0 2px;
     top: 5px;
-}
-section .title h2, p{
-    font-family: 'PT Sans', sans-serif;
 }
 a{
     color: #000;
@@ -135,6 +153,7 @@ a{
     object-fit: cover;    
     height: 170px;
 }
+
 /*ARTISTS*/
 .slider-artists{
     margin-top: 10px;
@@ -162,28 +181,12 @@ a{
     padding: 4px;
 }
 .curiosity-cards .card .card-img{
-    /*width: 100%;
-    object-fit: cover;    
-    height: 170px;*/  
     border-radius: 3px;
-}
-.curiosity-cards .card-body h4{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-}
-.curiosity-cards .card-body p{
-    font-size: 15px;
 }
 .curiosity-cards .card a:hover h4{
     color: #ec7607;
 }
 /*MIXES*/
-/*.mixes-cards{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-bottom: 0;
-}*/
 .mixes-cards .card{
     margin-bottom: 20px;
     width: 195px;
@@ -207,22 +210,14 @@ a{
     justify-content: center;
     align-items: center;
 }
-.mixes-cards .card-body h4{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-}
-.mixes-cards .card-body p{
-    font-size: 15px;
-}
 .mixes-cards .card a:hover h4{
     color: #ec7607;
 }
 .card a:hover .hover-img{
     transform: scale(1);
 }
-h5{
-    font-size: 14px;
-    padding-top: 15px;
+.more a:hover h5{
+    color: #ec7607;
 }
 /*CATEGORIES*/
 #Categories{
@@ -252,10 +247,6 @@ h5{
     height: 200px;
     text-align: center;
     color: #fff;
-}
-.category-cards .card-body h4{
-    padding-top: 85px;
-    font-size: 25px;
 }
 #Categories .card-body:hover{
     background: hsla(0, 0%, 0%, 0.856);
