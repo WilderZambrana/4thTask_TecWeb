@@ -161,3 +161,13 @@ section .conteiner{
     background: hsla(0, 0%, 0%, 0.856);
     color:#ec7607;
 }
+@media (max-width: 600px) {
+    .category-cards{
+        margin-top: 10px;
+        display: flex;
+        overflow-y: auto;
+    }
+    .card{
+        width: 200px;
+    }
+  }
