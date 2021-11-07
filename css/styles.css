@@ -10,11 +10,13 @@
 .navbar{
     margin:0 auto;
     width: 100%;
-    position: fixed;    
+    position: fixed;  
+    z-index: 1;
     border-bottom: 1px solid #ccc;
 }
 nav{
     height: 40px;
+    position: relative;
     background: #fff;
 }
 .navbar-brand img{
@@ -161,13 +163,8 @@ section .conteiner{
     background: hsla(0, 0%, 0%, 0.856);
     color:#ec7607;
 }
-@media (max-width: 600px) {
-    .category-cards{
-        margin-top: 10px;
-        display: flex;
-        overflow-y: auto;
-    }
+@media (max-width: 800px) {
     .card{
-        width: 200px;
+        width: 45%;
     }
   }
