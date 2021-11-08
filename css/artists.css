@@ -200,8 +200,3 @@ footer .footer-info li a{
     font-size: 13px; 
     font-weight: 700;
 }
-@media (max-width: 800px) {
-    .cards .card{
-        width: 90%;
-    }
-}
