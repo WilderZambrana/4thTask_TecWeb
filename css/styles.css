@@ -186,6 +186,28 @@ a{
 .artists-cards .card-body{
     text-align: center;
 }
+.artists-cards .hover-img{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top:0;
+    transform: scale(0);
+    background: hsla(0, 0%, 0%, 0.842);
+    color: #fff;
+    font-size: 50px;
+    transition: transform 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    padding: 5px;
+}
+.artists-cards .card a:hover h4{
+    color: #ec7607;
+}
+.artists-cards .card a:hover .hover-img{
+    transform: scale(1);
+}
 /*ADVERT*/
 #Advert{
     margin-top: 50px;
